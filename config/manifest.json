@@ -1,0 +1,90 @@
+{
+  "assembly_version": 1,
+  "dataset_id": "xcParTurq1",
+  "scientific_name": "Pareledone turqueti",
+  "taxon_id": 164545,
+  "busco_odb10_dataset_name": "mollusca",
+  "busco_odb12_dataset_name": "mollusca",
+  "ncbi_class": "Cephalopoda",
+  "hic_motif": "GATC,GANTC,CTNAG,TTAA",
+  "mitochondrial_genetic_code_id": 5,
+  "mitohifi_reference_species": "Octopus vulgaris",
+  "oatk_hmm_name": "mollusca",
+  "augustus_dataset_name": "Notospermus_geniculatus",
+  "genetic_code_id": 1,
+  "assembly_id": "4868f56a-c3b6-49b7-9ad8-d3fb04daa3f7",
+  "read_files": [
+    {
+      "name": "bpa-avid-pacbio-hifi-668779-m84073_260813_074149_s2",
+      "data_type": "PACBIO_SMRT",
+      "base_url": "https://downloads-qcif.bioplatforms.com/bpa/avid_staging/pacbio-hifi/BPAOPS-2187/20260817_AVID_AGRF_CAGRF26040069_m84073_260813_074149_s2/",
+      "single_end": [
+        {
+          "url": "https://data.bioplatforms.com/dataset/bpa-avid-pacbio-hifi-668779-m84073_260813_074149_s2/resource/81b821d3f2f89a2032ff81b0655d6232/download/668779_AVID_AGRF_m84073_260813_074149_s2.ccs.bam",
+          "md5sum": "81b821d3f2f89a2032ff81b0655d6232"
+        }
+      ]
+    },
+    {
+      "name": "bpa-avid-pacbio-hifi-668779-m84073_260714_071431_s1",
+      "data_type": "PACBIO_SMRT",
+      "base_url": "https://downloads-qcif.bioplatforms.com/bpa/avid_staging/pacbio-hifi/BPAOPS-2185/20260817_AVID_AGRF_CAGRF26040069_m84073_260714_071431_s1/",
+      "single_end": [
+        {
+          "url": "https://data.bioplatforms.com/dataset/bpa-avid-pacbio-hifi-668779-m84073_260714_071431_s1/resource/f1ff80f636e1c7d97bcaca3861714581/download/668779_AVID_AGRF_m84073_260714_071431_s1.ccs.bam",
+          "md5sum": "f1ff80f636e1c7d97bcaca3861714581"
+        }
+      ]
+    },
+    {
+      "name": "bpa-avid-pacbio-hifi-668779-m84073_260601_035615_s4",
+      "data_type": "PACBIO_SMRT",
+      "base_url": "https://downloads-qcif.bioplatforms.com/bpa/avid_staging/pacbio-hifi/BPAOPS-2183/20260817_AVID_AGRF_CAGRF26040069_m84073_260601_035615_s4/",
+      "single_end": [
+        {
+          "url": "https://data.bioplatforms.com/dataset/bpa-avid-pacbio-hifi-668779-m84073_260601_035615_s4/resource/67d6e1becc5ec571d532cd3db38fffb1/download/668779_AVID_AGRF_m84073_260601_035615_s4.ccs.bam",
+          "md5sum": "67d6e1becc5ec571d532cd3db38fffb1"
+        }
+      ]
+    },
+    {
+      "name": "bpa-avid-pacbio-hifi-668779-m84073_260813_070932_s1",
+      "data_type": "PACBIO_SMRT",
+      "base_url": "https://downloads-qcif.bioplatforms.com/bpa/avid_staging/pacbio-hifi/BPAOPS-2186/20260817_AVID_AGRF_CAGRF26040069_m84073_260813_070932_s1/",
+      "single_end": [
+        {
+          "url": "https://data.bioplatforms.com/dataset/bpa-avid-pacbio-hifi-668779-m84073_260813_070932_s1/resource/213108f7691e25105a9baad8fb538ed2/download/668779_AVID_AGRF_m84073_260813_070932_s1.ccs.bam",
+          "md5sum": "213108f7691e25105a9baad8fb538ed2"
+        }
+      ]
+    },
+    {
+      "name": "bpa-avid-pacbio-hifi-668779-m84073_260708_083233_s3",
+      "data_type": "PACBIO_SMRT",
+      "base_url": "https://downloads-qcif.bioplatforms.com/bpa/avid_staging/pacbio-hifi/BPAOPS-2184/20260817_AVID_AGRF_CAGRF26040069_m84073_260708_083233_s3/",
+      "single_end": [
+        {
+          "url": "https://data.bioplatforms.com/dataset/bpa-avid-pacbio-hifi-668779-m84073_260708_083233_s3/resource/eb94647fbd47a826cd18f2db271bf2d4/download/668779_AVID_AGRF_m84073_260708_083233_s3.ccs.bam",
+          "md5sum": "eb94647fbd47a826cd18f2db271bf2d4"
+        }
+      ]
+    },
+    {
+      "name": "bpa-avid-illumina-shortread-668783-23jg5llt3",
+      "data_type": "Hi-C",
+      "base_url": "https://downloads-qcif.bioplatforms.com/bpa/avid_staging/illumina-shortread/BPAOPS-2107/20260605_AVID_BRF_WO31004_23JG5LLT3/",
+      "r1": [
+        {
+          "url": "https://data.bioplatforms.com/dataset/bpa-avid-illumina-shortread-668783-23jg5llt3/resource/c3cebedaaf3ccd6e4d804eed857a7ab0/download/668783_AVID_BRF_23JG5LLT3_TGAGGAGT-CGCGCAAT_S19_R1_001.fastq.gz",
+          "md5sum": "c3cebedaaf3ccd6e4d804eed857a7ab0"
+        }
+      ],
+      "r2": [
+        {
+          "url": "https://data.bioplatforms.com/dataset/bpa-avid-illumina-shortread-668783-23jg5llt3/resource/5740c1289898cbf18e70df52af0c2553/download/668783_AVID_BRF_23JG5LLT3_TGAGGAGT-CGCGCAAT_S19_R2_001.fastq.gz",
+          "md5sum": "5740c1289898cbf18e70df52af0c2553"
+        }
+      ]
+    }
+  ]
+}

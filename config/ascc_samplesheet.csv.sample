@@ -1,0 +1,4 @@
+sample,assembly_type,assembly_file
+xcParTurq1.1,PRIMARY,${PWD}/results/genomeassembly/xcParTurq1.1/xcParTurq1.1.pacbio_hifi.phased/scaffolding/asm_hap1_scaffolds_final.fa.gz
+xcParTurq1.1,HAPLO,${PWD}/results/genomeassembly/xcParTurq1.1/xcParTurq1.1.pacbio_hifi.phased/scaffolding/asm_hap2_scaffolds_final.fa.gz
+xcParTurq1.1,MITO,${PWD}/results/genomeassembly/xcParTurq1.1/xcParTurq1.1.pacbio_hifi.phased/mito/final_mitogenome.fasta

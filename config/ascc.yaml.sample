@@ -1,0 +1,12 @@
+reads_path:
+  - ${PWD}/results/qc/reads/PACBIO_SMRT/bpa-avid-pacbio-hifi-668779-m84073_260813_074149_s2.fastq.gz
+  - ${PWD}/results/qc/reads/PACBIO_SMRT/bpa-avid-pacbio-hifi-668779-m84073_260714_071431_s1.fastq.gz
+  - ${PWD}/results/qc/reads/PACBIO_SMRT/bpa-avid-pacbio-hifi-668779-m84073_260601_035615_s4.fastq.gz
+  - ${PWD}/results/qc/reads/PACBIO_SMRT/bpa-avid-pacbio-hifi-668779-m84073_260813_070932_s1.fastq.gz
+  - ${PWD}/results/qc/reads/PACBIO_SMRT/bpa-avid-pacbio-hifi-668779-m84073_260708_083233_s3.fastq.gz
+reads_type: "hifi"
+reads_layout: "SINGLE"
+sample_id: "xcParTurq1"
+scientific_name: "Pareledone turqueti"
+busco_lineages: "mollusca_odb10"
+taxid: 164545

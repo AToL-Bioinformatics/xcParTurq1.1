@@ -1,0 +1,13 @@
+
+- id: xcParTurq1
+  platform: illumina_hic
+  reads:
+    - ${PWD}/results/qc/reads/Hi-C/bpa-avid-illumina-shortread-668783-23jg5llt3.cram
+- id: xcParTurq1
+  platform: pacbio_hifi
+  reads:
+    - ${PWD}/results/qc/reads/PACBIO_SMRT/bpa-avid-pacbio-hifi-668779-m84073_260813_074149_s2.fastq.gz
+    - ${PWD}/results/qc/reads/PACBIO_SMRT/bpa-avid-pacbio-hifi-668779-m84073_260714_071431_s1.fastq.gz
+    - ${PWD}/results/qc/reads/PACBIO_SMRT/bpa-avid-pacbio-hifi-668779-m84073_260601_035615_s4.fastq.gz
+    - ${PWD}/results/qc/reads/PACBIO_SMRT/bpa-avid-pacbio-hifi-668779-m84073_260813_070932_s1.fastq.gz
+    - ${PWD}/results/qc/reads/PACBIO_SMRT/bpa-avid-pacbio-hifi-668779-m84073_260708_083233_s3.fastq.gz
