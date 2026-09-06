@@ -5,7 +5,8 @@
 #SBATCH --ntasks-per-node=1
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=4g
-#SBATCH --time=1-00
+#SBATCH --time=4-00
+#SBATCH --partition=long
 #SBATCH --output=logs/slurm/genomeassembly.%j.out
 #SBATCH --error=logs/slurm/genomeassembly.%j.err
 
