@@ -4,8 +4,8 @@
   long_read_dataset: xcParTurq1
   long_read_platform: pacbio_hifi
   hic_dataset: xcParTurq1
-  phased_assembly: true
-  purge: false
+  phased_assembly: false
+  purge: true
   busco_lineage: mollusca_odb12
   find_mito: true
   find_plastid: false
