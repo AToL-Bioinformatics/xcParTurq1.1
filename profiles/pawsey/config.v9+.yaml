@@ -48,6 +48,8 @@ set-resources:
     partitionFlag: "--partition=copy"
   hic_qc:
     runtime: "12h"
+  reheader_for_treeval:
+    runtime: "12h"
 singularity-args: -B ${PWD},${TMPDIR},/scratch
   --nv
   -H $(mktemp -d)
