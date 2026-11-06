@@ -52,7 +52,7 @@ set-resources:
     runtime: "12h"
   all_assembly_stats:
     mem: "32GB"
-    runtime: 60
+    runtime: "2h"
 singularity-args: -B ${PWD},${TMPDIR},/scratch
   --nv
   -H $(mktemp -d)
