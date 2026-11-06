@@ -50,6 +50,9 @@ set-resources:
     runtime: "12h"
   reheader_for_treeval:
     runtime: "12h"
+  all_assembly_stats:
+    mem: "32GB"
+    runtime: 60
 singularity-args: -B ${PWD},${TMPDIR},/scratch
   --nv
   -H $(mktemp -d)
