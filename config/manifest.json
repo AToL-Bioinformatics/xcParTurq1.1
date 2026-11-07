@@ -10,7 +10,7 @@
   "mitochondrial_genetic_code_id": 5,
   "mitohifi_reference_species": "Octopus vulgaris",
   "oatk_hmm_name": "mollusca",
-  "augustus_dataset_name": "Notospermus_geniculatus",
+  "augustus_dataset_name": "tiberius_model_cfg:insecta.yaml",
   "genetic_code_id": 1,
   "assembly_id": "4868f56a-c3b6-49b7-9ad8-d3fb04daa3f7",
   "read_files": [

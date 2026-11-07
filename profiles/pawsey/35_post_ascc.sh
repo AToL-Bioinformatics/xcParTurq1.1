@@ -1,6 +1,6 @@
 #!/bin/bash
 #SBATCH --job-name=post_ascc
-#SBATCH --time=0-12
+#SBATCH --time=0-02
 #SBATCH --cpus-per-task=2
 #SBATCH --ntasks=1
 #SBATCH --mem=8g

@@ -1,5 +1,8 @@
 hic_kit: "arima"
 s3_buckets:
+  annotationqc: "pawsey1132.atol.refdata.annotationqc"
   diamond_uniprot_database: "pawsey1132.atol.refdata.uniprot.diamond/diamond"
   fcsgx: "pawsey1132.atol.refdata.fcsgx/fcsgx"
   nt_database: "pawsey1132.atol.refdata.v1/ncbi_nucleotide_blast"
+containers: # Must use hash for pawsey/tiberius. Different containers exist with same tag.
+  tiberius: "docker://gaiusaugustus/tiberius:amd-test@sha256:c015bc8e4d0f341b34d8a1fea6e4fbee362f997aeaecea9c0d00d94e22db2dbe"

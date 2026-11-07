@@ -15,7 +15,7 @@ The repo was produced automatically from boilerplate code at
 ```yaml
 assembly_id: 4868f56a-c3b6-49b7-9ad8-d3fb04daa3f7
 assembly_version: 1
-augustus_dataset_name: Notospermus_geniculatus
+augustus_dataset_name: tiberius_model_cfg:insecta.yaml
 busco_odb10_dataset_name: mollusca
 busco_odb12_dataset_name: mollusca
 dataset_id: xcParTurq1
