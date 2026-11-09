@@ -47,6 +47,8 @@ set-resources:
   transfer_raw_reads:
     partitionFlag: "--partition=copy"
     runtime: "24h"
+  compress_ascc_output:
+    mem: "48GB"
 singularity-args: -B ${PWD},${TMPDIR},/scratch
   -H $(mktemp -d)
   --pwd ${PWD}
