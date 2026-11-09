@@ -52,6 +52,7 @@ set-resources:
   submit_assembly_to_ena:
     partitionFlag: "--partition=copy"
     runtime: "1h"
+    retries: 5
 singularity-args: -B ${PWD},${TMPDIR},/scratch
   -H $(mktemp -d)
   --pwd ${PWD}
