@@ -30,7 +30,7 @@ printshellcmds: true
 rerun-incomplete: true
 rerun-triggers:
   - mtime
-restart-times: 0
+restart-times: 5
 set-resources:
   broker_runs:
     partitionFlag: "--partition=copy"
@@ -52,7 +52,6 @@ set-resources:
   submit_assembly_to_ena:
     partitionFlag: "--partition=copy"
     runtime: "1h"
-    retries: 5
 singularity-args: -B ${PWD},${TMPDIR},/scratch
   -H $(mktemp -d)
   --pwd ${PWD}
