@@ -5,4 +5,4 @@ s3_buckets:
   fcsgx: "pawsey1132.atol.refdata.fcsgx/fcsgx"
   nt_database: "pawsey1132.atol.refdata.v1/ncbi_nucleotide_blast"
 containers: # Must use hash for pawsey/tiberius. Different containers exist with same tag.
-  tiberius: "docker://gaiusaugustus/tiberius:amd-test@sha256:c015bc8e4d0f341b34d8a1fea6e4fbee362f997aeaecea9c0d00d94e22db2dbe"
+  tiberius: "docker://quay.io/pawsey/tiberius@sha256:d444d05e4824c0b7349eb0b48c20bbfbde40e9810eda7471414d21779cfa8361"
