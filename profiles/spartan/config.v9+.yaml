@@ -67,8 +67,9 @@ set-resources:
     # gpu-a100 nodes have 594 GB RAM and 384 CPUs
     # see https://rcs-knowledge-hub.atlassian.net/wiki/spaces/KB/pages/958398465/Understanding+scheduling
     partitionFlag: "--partition=gpu-h100"
-    threads: 192
     mem: "256G"
     runtime: "7d"
+set-threads:
+    tiberius: 192
 use-apptainer: true
 use-conda: False
