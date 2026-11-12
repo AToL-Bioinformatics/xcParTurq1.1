@@ -8,7 +8,7 @@
 #SBATCH --error=logs/slurm/annotation.%j.err
 
 # Source snakemake environment
-source profiles/pawsey/lib/snakemake_env.sh
+source profiles/spartan/lib/snakemake_env.sh
 
 # Setup and run
 setup_snakemake
