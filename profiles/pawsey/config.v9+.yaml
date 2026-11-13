@@ -30,7 +30,7 @@ printshellcmds: true
 rerun-incomplete: true
 rerun-triggers:
   - mtime
-restart-times: 5
+restart-times: 0
 set-resources:
   broker_runs:
     partitionFlag: "--partition=copy"
@@ -46,16 +46,13 @@ set-resources:
     partitionFlag: "--partition=copy"
   transfer_raw_reads:
     partitionFlag: "--partition=copy"
-    runtime: "24h"
-  compress_ascc_output:
-    mem: "48GB"
-  submit_assembly_to_ena:
-    partitionFlag: "--partition=copy"
-    runtime: "1h"
 singularity-args: -B ${PWD},${TMPDIR},/scratch
   -H $(mktemp -d)
   --pwd ${PWD}
   --cleanenv --containall --writable-tmpfs
+  --env ARDC_APPID=${ARDC_APPID}
+  --env ARDC_BASE_URL=${ARDC_BASE_URL}
+  --env ARDC_SHARED_SECRET=${ARDC_SHARED_SECRET}
   --env BPA_APIKEY=${BPA_APIKEY}
   --env BPA_MIRROR_PASSWD=${BPA_MIRROR_PASSWD}
   --env BPA_MIRROR_USER=${BPA_MIRROR_USER}
